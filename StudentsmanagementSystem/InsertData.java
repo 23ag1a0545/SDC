@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class InsertData {
     public static void main(String[] args) {
-        try (Connection con = DriverManager.getConnection("jdbc:mysql://localhost/SDC", "root", "h0p3");
+        try (Connection con = DriverManager.getConnection("jdbc:mysql://localhost/SDC", "root", "password");
              Statement s = con.createStatement()) { // Corrected statement
 
             Scanner sc = new Scanner(System.in);
